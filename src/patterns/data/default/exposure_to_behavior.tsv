@@ -37,3 +37,6 @@ ECTO:6000038	exposure to Cigarette Smoking	NCIT:C18270
 ECTO:6000039	exposure to Physical Activity	NCIT:C17708
 ECTO:6000040	exposure to Resistance Training	NCIT:C154219
 ECTO:6000041	exposure to Tobacco Use	NCIT:C18059
+ECTO:6000042	exposure to breast feeding	NCIT:C25596
+ECTO:6000043	exposure to childhood abuse and neglect	NCIT:C16424
+ECTO:6000044	exposure to domestic abuse	NCIT:C222297

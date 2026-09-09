@@ -46,6 +46,13 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>
 Declaration(AnnotationProperty(rdfs:comment))
 Declaration(AnnotationProperty(rdfs:label))
 Declaration(Datatype(xml:string))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0000992>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0000993>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0000994>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0000995>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0000996>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0000997>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0000998>))
 ############################
 #   Annotation Properties
 ############################
@@ -170,4 +177,65 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_9001302> "exposure to vinyl chloride")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_9001538> "exposure to PBB")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_9001538> "exposure to polybrominated biphenyl")
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0000992> (exposure to European diet)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0000992> "A dietary exposure in which the diet consumed follows a European dietary pattern.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0000992> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECTO_0000992> "Requested for GWAS Catalog gene-environment interaction traits (727 study rows). An ONS European diet class did not exist at creation time; if one is added this term should be migrated to the exposure_to_diet DOSDP pattern.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0000992> "exposure to European diet")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0000992> <http://purl.obolibrary.org/obo/ECTO_0000985>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0000993> (exposure to Japanese diet)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0000993> "A dietary exposure in which the diet consumed follows a Japanese dietary pattern.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0000993> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_0000993> "exposure to Washoku")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECTO_0000993> "Requested for GWAS Catalog gene-environment interaction traits (738 study rows). An ONS Japanese diet class did not exist at creation time; if one is added this term should be migrated to the exposure_to_diet DOSDP pattern.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0000993> "exposure to Japanese diet")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0000993> <http://purl.obolibrary.org/obo/ECTO_0000985>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0000994> (exposure to season of birth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0000994> "An exposure event in which the exposure stimulus is the set of environmental conditions associated with the season of the year during which the exposure receptor was born.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0000994> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECTO_0000994> "Grouping class for season-of-birth exposures reported as gene-environment interaction factors (e.g. GWAS Catalog microbiome GxE traits).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0000994> "exposure to season of birth")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0000994> <http://purl.obolibrary.org/obo/ExO_0000002>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0000995> (exposure to birth in spring)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0000995> "A season of birth exposure in which the exposure receptor was born during spring.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0000995> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0000995> "exposure to birth in spring")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0000995> <http://purl.obolibrary.org/obo/ECTO_0000994>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0000996> (exposure to birth in summer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0000996> "A season of birth exposure in which the exposure receptor was born during summer.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0000996> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0000996> "exposure to birth in summer")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0000996> <http://purl.obolibrary.org/obo/ECTO_0000994>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0000997> (exposure to birth in autumn)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0000997> "A season of birth exposure in which the exposure receptor was born during autumn.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0000997> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_0000997> "exposure to birth in fall")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0000997> "exposure to birth in autumn")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0000997> <http://purl.obolibrary.org/obo/ECTO_0000994>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0000998> (exposure to birth in winter)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0000998> "A season of birth exposure in which the exposure receptor was born during winter.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0000998> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0000998> "exposure to birth in winter")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0000998> <http://purl.obolibrary.org/obo/ECTO_0000994>)
+
 )
