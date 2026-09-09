@@ -46,6 +46,40 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>
 Declaration(AnnotationProperty(rdfs:comment))
 Declaration(AnnotationProperty(rdfs:label))
 Declaration(Datatype(xml:string))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001041>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001042>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001043>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001044>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001045>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001046>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001048>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001049>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001053>))
 ############################
 #   Annotation Properties
 ############################
@@ -170,4 +204,277 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_9001302> "exposure to vinyl chloride")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_9001538> "exposure to PBB")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_9001538> "exposure to polybrominated biphenyl")
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001020> (exposure to herbal medicine preparation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001020> "An exposure to a preparation of one or more herbal or other natural materials used as a traditional medicine, such as a decoction, pill, powder or granule formulation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001020> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECTO_0001020> "Grouping class for named traditional-medicine formulations (e.g. TCM decoctions, Kampo formulas) extracted from study metadata; individual formulas are asserted as children.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001020> "exposure to herbal medicine preparation")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001020> <http://purl.obolibrary.org/obo/ECTO_0000509>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001021> (exposure to Fuzheng Jiedu Xiaoji formula)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001021> "An exposure to Fuzheng Jiedu Xiaoji formula, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001021> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001021> "exposure to Fuzheng Jiedu Xiaoji formula")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001021> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001022> (exposure to Zhuyu pill)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001022> "An exposure to Zhuyu pill, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001022> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001022> "exposure to Zhuyu pill")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001022> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001023> (exposure to Baizhu Shaoyao decoction)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001023> "An exposure to Baizhu Shaoyao decoction, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001023> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001023> "exposure to Baizhu Shaoyao decoction")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001023> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001024> (exposure to Zaohu powder)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001024> "An exposure to Zaohu powder, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001024> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001024> "exposure to Zaohu powder")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001024> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001025> (exposure to Trichosanthes kirilowii formula granules)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001025> "An exposure to Trichosanthes kirilowii formula granules, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001025> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001025> "exposure to Trichosanthes kirilowii formula granules")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001025> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001026> (exposure to Buyang Huanwu decoction)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001026> "An exposure to Buyang Huanwu decoction, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001026> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001026> "exposure to Buyang Huanwu decoction")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001026> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001027> (exposure to Xiao-Chai-Hu-Tang decoction)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001027> "An exposure to Xiao-Chai-Hu-Tang decoction, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001027> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001027> "exposure to Xiao-Chai-Hu-Tang decoction")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001027> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001028> (exposure to Jiayi Huatu decoction)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001028> "An exposure to Jiayi Huatu decoction, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001028> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001028> "exposure to Jiayi Huatu decoction")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001028> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001029> (exposure to Dayuan Yin decoction)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001029> "An exposure to Dayuan Yin decoction, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001029> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001029> "exposure to Dayuan Yin decoction")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001029> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001030> (exposure to Wu Mei Wan)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001030> "An exposure to Wu Mei Wan, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001030> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001030> "exposure to Wu Mei Wan")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001030> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001031> (exposure to Chaihu Shugan San)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001031> "An exposure to Chaihu Shugan San, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001031> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001031> "exposure to Chaihu Shugan San")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001031> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001032> (exposure to Yiqi Yangxue formula)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001032> "An exposure to Yiqi Yangxue formula, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001032> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001032> "exposure to Yiqi Yangxue formula")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001032> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001033> (exposure to Huang-Lian-Jie-Du decoction)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001033> "An exposure to Huang-Lian-Jie-Du decoction, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001033> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001033> "exposure to Huang-Lian-Jie-Du decoction")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001033> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001034> (exposure to Zadi-5)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001034> "An exposure to Zadi-5, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001034> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001034> "exposure to Zadi-5")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001034> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001035> (exposure to Shi Wei Ru Xiang pill)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001035> "An exposure to Shi Wei Ru Xiang pill, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001035> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001035> "exposure to Shi Wei Ru Xiang pill")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001035> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001036> (exposure to Carica papaya leaf decoction)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001036> "An exposure to Carica papaya leaf decoction, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001036> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001036> "exposure to Carica papaya leaf decoction")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001036> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001037> (exposure to Carica papaya leaf juice via ingestion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001037> "An exposure to Carica papaya leaf juice via ingestion, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001037> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001037> "exposure to Carica papaya leaf juice via ingestion")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001037> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001038> (exposure to Shengji ointment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001038> "An exposure to Shengji ointment, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001038> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001038> "exposure to Shengji ointment")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001038> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001039> (exposure to Shengfu Pian)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001039> "An exposure to Shengfu Pian, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001039> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001039> "exposure to Shengfu Pian")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001039> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001040> (exposure to Hua-Feng-Dan)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001040> "An exposure to Hua-Feng-Dan, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001040> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001040> "exposure to Hua-Feng-Dan")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001040> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001041> (exposure to Drynaria rhizome)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001041> "An exposure to Drynaria rhizome, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001041> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001041> "exposure to Drynaria rhizome")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001041> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001042> (exposure to Yangyinqingfei decoction)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001042> "An exposure to Yangyinqingfei decoction, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001042> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001042> "exposure to Yangyinqingfei decoction")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001042> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001043> (exposure to outer membrane vesicle-embedded NadA antigen)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001043> "An exposure to outer membrane vesicle-embedded NadA antigen, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001043> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001043> "exposure to outer membrane vesicle-embedded NadA antigen")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001043> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001044> (exposure to Huaban Tongmai decoction)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001044> "An exposure to Huaban Tongmai decoction, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001044> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001044> "exposure to Huaban Tongmai decoction")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001044> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001045> (exposure to Wulanwendusu-11)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001045> "An exposure to Wulanwendusu-11, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001045> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001045> "exposure to Wulanwendusu-11")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001045> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001046> (exposure to compound Danshen dripping pills)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001046> "An exposure to compound Danshen dripping pills, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001046> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001046> "exposure to compound Danshen dripping pills")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001046> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001047> (exposure to Yu-Xue-Bi tablets)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001047> "An exposure to Yu-Xue-Bi tablets, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001047> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001047> "exposure to Yu-Xue-Bi tablets")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001047> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001048> (exposure to Shufengjiedu formula)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001048> "An exposure to Shufengjiedu formula, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001048> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001048> "exposure to Shufengjiedu formula")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001048> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001049> (exposure to Artemisiae Scopariae Herba (Yinchen))
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001049> "An exposure to Artemisiae Scopariae Herba (Yinchen), a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001049> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001049> "exposure to Artemisiae Scopariae Herba (Yinchen)")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001049> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001050> (exposure to Qingfei Paidu decoction)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001050> "An exposure to Qingfei Paidu decoction, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001050> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001050> "exposure to Qingfei Paidu decoction")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001050> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001051> (exposure to Amalaki rasayana)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001051> "An exposure to Amalaki rasayana, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001051> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001051> "exposure to Amalaki rasayana")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001051> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001052> (exposure to Yulin Tong Bu formula)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001052> "An exposure to Yulin Tong Bu formula, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001052> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001052> "exposure to Yulin Tong Bu formula")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001052> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001053> (exposure to Kampo medicine)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001053> "An exposure to Kampo medicine, a traditional herbal medicine preparation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001053> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001053> "exposure to Kampo medicine")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001053> <http://purl.obolibrary.org/obo/ECTO_0001020>)
+
 )
