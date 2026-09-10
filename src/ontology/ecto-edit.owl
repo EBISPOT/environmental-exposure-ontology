@@ -46,6 +46,9 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>
 Declaration(AnnotationProperty(rdfs:comment))
 Declaration(AnnotationProperty(rdfs:label))
 Declaration(Datatype(xml:string))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0001012>))
 ############################
 #   Annotation Properties
 ############################
@@ -170,4 +173,31 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_9001302> "exposure to vinyl chloride")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_9001538> "exposure to PBB")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_9001538> "exposure to polybrominated biphenyl")
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001010> (exposure to hypoxia)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001010> "An exposure to an environmental condition in which the oxygen level of the surroundings or culture environment is below the normal physiological range.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001010> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_0001010> "exposure to decreased oxygen level")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECTO_0001010> "Covers ambient and experimental (e.g. cell culture) low-oxygen conditions. ENVO has no generic ambient-oxygen quality bearer, hence bespoke rather than the exposure_to_change pattern.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001010> "exposure to hypoxia")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001010> <http://purl.obolibrary.org/obo/ECTO_1000000>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001011> (exposure to oxidative stress conditions)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001011> "An exposure to an environmental or experimental condition that imposes oxidative stress on the exposure receptor, such as treatment with reactive oxygen species generators.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001011> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_0001011> "exposure to oxidative stress")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001011> "exposure to oxidative stress conditions")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001011> <http://purl.obolibrary.org/obo/ECTO_1000000>)
+
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0001012> (exposure to environmental enrichment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0001012> "An exposure to a housing or husbandry condition in which the environment of the exposure receptor is enriched with additional stimuli, objects or social opportunities relative to standard conditions.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECTO_0001012> <https://ai4curation.github.io/aidocs/reference/clients/claude-code/>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0001012> "exposure to environmental enrichment")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0001012> <http://purl.obolibrary.org/obo/ECTO_1000000>)
+
 )

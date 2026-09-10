@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/ecto/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/ecto/releases/2026-08-07/patterns/definitions.owl>
-Annotation(owl:versionInfo "2026-08-07")
+<http://purl.obolibrary.org/obo/ecto/releases/2026-09-10/patterns/definitions.owl>
+Annotation(owl:versionInfo "2026-09-10")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_10022>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_10023>))
@@ -3152,6 +3152,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0070252>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0070253>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0070254>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0070255>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0070256>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0070257>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0080000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0080001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0080002>))
@@ -3798,6 +3800,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0900518>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0900519>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0900520>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0900521>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0910001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0910002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0910003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0910004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0910005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0910006>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_1000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_1000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_1000002>))
@@ -3973,6 +3981,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_2000126>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_2000127>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_2000128>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_2000129>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_2000130>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_3000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_3000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_3000002>))
@@ -7871,6 +7880,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOODON_03317669>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOODON_03400125>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOODON_03400152>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOODON_03400794>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOODON_03401298>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOODON_03401302>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOODON_03401308>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOODON_03401324>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOODON_03411043>))
@@ -8364,6 +8375,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C38103>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C39772>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C39773>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C43431>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C50791>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C53462>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C61508>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C73554>))
@@ -8391,6 +8403,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001997>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002284>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0015009>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0085001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VO_0001176>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VO_0006086>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VO_0010171>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VO_0017451>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VO_0018123>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VO_0020498>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000087>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))
@@ -10709,6 +10727,20 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_0070255> "fish species exposure via ingestion")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0070255> "exposure to fish via ingestion")
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECTO_0070255> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ExO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002242> <http://purl.obolibrary.org/obo/ExO_0000056>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002309> <http://purl.obolibrary.org/obo/FOODON_03411222>)))
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0070256> (exposure to dietary supplement via ingestion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0070256> "An exposure to dietary supplement via ingestion.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_0070256> "dietary supplement exposure via ingestion")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0070256> "exposure to dietary supplement via ingestion")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECTO_0070256> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ExO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002242> <http://purl.obolibrary.org/obo/ExO_0000056>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002309> <http://purl.obolibrary.org/obo/FOODON_03401298>)))
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0070257> (exposure to dietary supplement, vitamin via ingestion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0070257> "An exposure to http://purl.obolibrary.org/obo/FOODON_03401302 via ingestion.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_0070257> "http://purl.obolibrary.org/obo/FOODON_03401302 exposure via ingestion")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0070257> "exposure to dietary supplement, vitamin via ingestion")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECTO_0070257> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ExO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002242> <http://purl.obolibrary.org/obo/ExO_0000056>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002309> <http://purl.obolibrary.org/obo/FOODON_03401302>)))
 
 # Class: <http://purl.obolibrary.org/obo/ECTO_0080000> (exposure to arsenic in water via ingestion)
 
@@ -15232,6 +15264,48 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0900521> "exposure to lysine via ingestion")
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECTO_0900521> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ExO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002242> <http://purl.obolibrary.org/obo/ExO_0000056>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002309> <http://purl.obolibrary.org/obo/CHEBI_25094>)))
 
+# Class: <http://purl.obolibrary.org/obo/ECTO_0910001> (exposure to inactivated influenza vaccine)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0910001> "An exposure to http://purl.obolibrary.org/obo/VO_0001176.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_0910001> "http://purl.obolibrary.org/obo/VO_0001176 exposure")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0910001> "exposure to inactivated influenza vaccine")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECTO_0910001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ExO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002309> <http://purl.obolibrary.org/obo/VO_0001176>)))
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0910002> (exposure to vaccinia (smallpox) vaccine diluted)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0910002> "An exposure to http://purl.obolibrary.org/obo/VO_0006086.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_0910002> "http://purl.obolibrary.org/obo/VO_0006086 exposure")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0910002> "exposure to vaccinia (smallpox) vaccine diluted")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECTO_0910002> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ExO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002309> <http://purl.obolibrary.org/obo/VO_0006086>)))
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0910003> (exposure to hepatitis B vaccine, pediatric or pediatric/adolescent dosage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0910003> "An exposure to http://purl.obolibrary.org/obo/VO_0010171.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_0910003> "http://purl.obolibrary.org/obo/VO_0010171 exposure")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0910003> "exposure to hepatitis B vaccine, pediatric or pediatric/adolescent dosage")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECTO_0910003> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ExO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002309> <http://purl.obolibrary.org/obo/VO_0010171>)))
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0910004> (exposure to meningococcal group C polysaccharide / tetanus toxoid vaccine, inactivated Injectable Suspension [Neisvac C])
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0910004> "An exposure to http://purl.obolibrary.org/obo/VO_0017451.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_0910004> "http://purl.obolibrary.org/obo/VO_0017451 exposure")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0910004> "exposure to meningococcal group C polysaccharide / tetanus toxoid vaccine, inactivated Injectable Suspension [Neisvac C]")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECTO_0910004> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ExO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002309> <http://purl.obolibrary.org/obo/VO_0017451>)))
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0910005> (exposure to Measles Vaccine / Mumps Virus Vaccine Live, Jeryl Lynn Strain / Rubella virus vaccine Injection [M-M-R II])
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0910005> "An exposure to http://purl.obolibrary.org/obo/VO_0018123.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_0910005> "http://purl.obolibrary.org/obo/VO_0018123 exposure")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0910005> "exposure to Measles Vaccine / Mumps Virus Vaccine Live, Jeryl Lynn Strain / Rubella virus vaccine Injection [M-M-R II]")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECTO_0910005> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ExO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002309> <http://purl.obolibrary.org/obo/VO_0018123>)))
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_0910006> (exposure to SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0910006> "An exposure to http://purl.obolibrary.org/obo/VO_0020498.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_0910006> "http://purl.obolibrary.org/obo/VO_0020498 exposure")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0910006> "exposure to SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECTO_0910006> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ExO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002309> <http://purl.obolibrary.org/obo/VO_0020498>)))
+
 # Class: <http://purl.obolibrary.org/obo/ECTO_1000000> (exposure to environmental condition)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_1000000> "A exposure event involving the interaction of an exposure receptor to the condition of environmental condition.")
@@ -16456,6 +16530,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_2000129> "vaccination exposure")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_2000129> "exposure to vaccination")
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECTO_2000129> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ExO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002309> <http://purl.obolibrary.org/obo/MAXO_0001017>)))
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_2000130> (exposure to Urinary Tract Infection)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_2000130> "An exposure to http://purl.obolibrary.org/obo/NCIT_C50791.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECTO_2000130> "http://purl.obolibrary.org/obo/NCIT_C50791 exposure")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_2000130> "exposure to Urinary Tract Infection")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECTO_2000130> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ExO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002309> <http://purl.obolibrary.org/obo/NCIT_C50791>)))
 
 # Class: <http://purl.obolibrary.org/obo/ECTO_3000000> (exposure to organism)
 
