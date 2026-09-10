@@ -254,3 +254,8 @@ ECTO:0070254	exposure to tomato powder via ingestion	FOODON:03301459
 ECTO:0070255	exposure to fish via ingestion	FOODON:03411222
 ECTO:0070256	exposure to dietary supplement via ingestion	FOODON:03401298
 ECTO:0070257	exposure to dietary supplement, vitamin via ingestion	FOODON:03401302
+ECTO:0070258	exposure to mammalian meat via ingestion	FOODON:00001006
+ECTO:0070259	exposure to cheese via ingestion	FOODON:03000287
+ECTO:0070260	exposure to dairy food product via ingestion	FOODON:00001256
+ECTO:0070261	exposure to vegetable via ingestion	FOODON:00003816
+ECTO:0070262	exposure to tea beverage via ingestion	FOODON:00001245
